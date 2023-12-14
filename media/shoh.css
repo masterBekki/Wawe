@@ -36,6 +36,10 @@ body{
     content: '';
     background: transparent;
 }
+.section_1 > header > ul > li > a{
+    text-decoration: transparent;
+    color: #fff;
+}
 .section_1 > header > ul > li{
     position: relative;
     cursor: pointer;
