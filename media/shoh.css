@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&family=Roboto+Condensed:wght@300;400&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -67,6 +67,7 @@ body{
 }
 .section_1 > main > h1{
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 180px;
     color: #0D302C;
     cursor: pointer;
@@ -77,6 +78,7 @@ body{
 }
 .section_1 > main > p{
     font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
 }
 .section_1 > .logo_v2{
     width: 100%;
@@ -85,4 +87,52 @@ body{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+.section_4{
+    width: 100%;
+    display: flex;
+}
+.section_4 > .text_section{
+    width: 60%;
+    margin-left: 100px;
+    margin-top: 75px;
+}
+.section_4 > .text_section > .tit_text{
+    display: flex;
+}
+.section_4 > .text_section > .tit_text > h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #01353E;
+    position: relative;
+}
+/* .section_4 > .text_section > h2::before{
+    content: "";
+    width: 50px;
+    height: 80px;
+    background-color: #01353E;
+    position: absolute;
+    left:65%;
+    top: -30%;
+    z-index: 3;
+    overflow: hidden;
+}
+.section_4 > .text_section > h2::after{
+    content: "";
+    width: 100px;
+    rotate: 290deg;
+    height: 8px;
+    position: absolute;
+    background-color: #00B2A0;
+    z-index: 1;
+} */
+.section_4 > .text_section > p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+    width: 80%;
+}
+.section_4 > .img_section > img{
+    width: 100%;
 }
