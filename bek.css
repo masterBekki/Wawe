@@ -55,3 +55,20 @@
   flex-direction: column;
   justify-content: space-between;
 }
+@media (max-width:800px){
+  .title{
+    text-align: center;
+  }
+  .section_2 .row{
+    flex-direction: column;
+  }
+  .section_2 .row .col{
+    max-width: 100%;
+  }
+}
+@media (max-width:600px){
+  .title {
+    font-size: 35px;
+    line-height: 35px;
+  }
+}
