@@ -1,3 +1,89 @@
+<<<<<<< HEAD
+=======
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.section_1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section_1 > header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+}
+.section_1 > header > ul{
+    display: flex;
+    padding: 20px ;
+    width: 55%;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.section_1 > header > ul > li:nth-child(1){
+    margin-right: 80px;
+}
+.section_1 > header > ul > li:nth-child(1)::after{
+    content: '';
+    background: transparent;
+}
+.section_1 > header > ul > li{
+    position: relative;
+    cursor: pointer;
+}
+.section_1 > header > ul > li::after{
+    content: '';
+    width: 0;
+    height: 1.2px;
+    background-color: #00B2A0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.section_1 > header > ul > li:hover::after{
+    width: 100%;
+    transition: 500ms ease-in-out;
+}
+.section_1 > main{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section_1 > main > h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 180px;
+    color: #0D302C;
+    cursor: pointer;
+}
+.section_1 > main > h1:hover{
+    color: #0d302cbf;
+    transition: 1s;
+}
+.section_1 > main > p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.section_1 > .logo_v2{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+>>>>>>> 158f7f145d092209028ce1ac260aedbda67ac86f
 
 /* Section-2 */
 .container{
@@ -50,4 +136,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 158f7f145d092209028ce1ac260aedbda67ac86f
