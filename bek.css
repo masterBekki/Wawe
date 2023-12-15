@@ -313,3 +313,12 @@
 iframe{
   width: 100%;
 }
+
+/* footer */
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 10px;
+  background-color: rgba(0, 178, 160, 1);
+}
