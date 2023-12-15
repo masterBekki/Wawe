@@ -371,6 +371,7 @@ body{
     background-color: #00B2A0;
     transition: .6s;
 }
+
 .section_7{
     width: 100%;
     display: flex;
@@ -406,7 +407,7 @@ body{
         width: 70%;
     }
 }
-@media (max-width:900px){
+@media (max-width:500px){
     .section_7 > ul{
         width: 90%;
     }
