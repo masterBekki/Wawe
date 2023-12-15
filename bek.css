@@ -306,9 +306,19 @@
   padding: 80px 0;
 }
 .section_9 .map{
-  padding: 0 15px;
-}
-.map img{
+  max-width: 900px;
   width: 100%;
-  object-fit: cover;
+  margin: 0 15px;
+}
+iframe{
+  width: 100%;
+}
+
+/* footer */
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 10px;
+  background-color: rgba(0, 178, 160, 1);
 }
