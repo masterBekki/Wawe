@@ -277,3 +277,94 @@ body{
         width: 80%;
     }
 }
+.section_5{
+    margin: 100px;
+    margin-top: 50px;
+}
+.section_5 img:hover{
+    opacity: .8;
+    transition: .5s;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.section_5 > .sec_title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section_5 > .sec_title > h2{
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #01353E;
+}
+.section_5 > .map{
+    width: 100%;
+    float: left;
+    margin: 20px 0;
+}
+.section_5 > .map > ul{
+    display: flex;
+    list-style-type: none;
+    width: 30%;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+.section_5 > .map > ul > li > a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+.section_5 > .map > ul > li > a:hover{
+    color: #00B2A0;
+    transition: .4s;
+}
+.section_5 > .images_sec {
+    display: flex;
+    float: left;
+    width: 100%;
+    gap: 20px;
+}
+.section_5 > .images_sec > .images_sec_left , .images_sec_right{
+    width: 50%;
+    gap: 20px;
+}
+.section_5 > .images_sec > .images_sec_left > .images_sec_left_bottom > img{
+    width:100%;
+    margin-top: 20px;
+}
+.section_5 > .images_sec > .images_sec_left > .images_sec_left_top {
+    display: flex;
+}
+
+ .section_5 > .images_sec > .images_sec_left > .images_sec_left_top > img{
+    margin-right: 20px;
+ }
+.section_5 > .images_sec > .images_sec_right > .images_sec_right_bottom > img{
+    margin-right: 15px;
+    margin-top: 18px;
+}
+.section_5 > .btn_sec {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+.section_5 > .btn_sec > button{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    padding: 10px 30px;
+    font-size: 18px;
+    background: transparent;
+    border: 1px solid #C4C4C4;
+    cursor: pointer;
+}
+.section_5 > .btn_sec > button:hover{
+    color: #fff;
+    background-color: #00B2A0;
+    transition: .6s;
+}
